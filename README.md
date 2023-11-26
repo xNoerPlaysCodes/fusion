@@ -4,7 +4,7 @@ goofy ahh chat server+client
 # Installation Instructions
 ## Linux
 ### Building from Source
-Step 1. Install git
+Step 1. Install git<br>
 Ubuntu:
 ```console
 sudo apt update
@@ -15,7 +15,7 @@ Arch:
 pacman -Sy
 pacman -S git
 ```
-Step 2. Install a C++ compiler such as clang++
+Step 2. Install a C++ compiler such as clang++<br>
 Ubuntu:
 ```console
 sudo apt update
@@ -26,17 +26,17 @@ Arch:
 pacman -Sy
 pacman -S clang
 ```
-Step 3. Clone this repository to a folder
+Step 3. Clone this repository to a folder<br>
 ```console
 mkdir fusion-chat/
 cd fusion-chat/
 git clone https://github.com/xNoerPlaysCodes/fusion.git .
 ```
-Step 4. Compile the client (Fusion supports only localhost at this moment)
+Step 4. Compile the client (Fusion supports only localhost at this moment)<br>
 ```console
 clang++ -o fusion-client fusion-client.cpp
 ```
-Step 5. Start the client
+Step 5. Start the client<br>
 ```console
 ./fusion-client
 ```
