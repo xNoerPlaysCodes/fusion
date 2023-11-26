@@ -41,3 +41,12 @@ Step 5. Start the client
 ./fusion-client
 ```
 and follow the instructions from there
+### Using compiled executable
+*Not supported*
+## macOS
+### Building from source
+[Here](https://github.com/xNoerPlaysCodes/fusion#linux)
+### Using Compiled Executable
+*Not supported*
+
+\* NOTE: Windows is not supported, you can build source yourself without instructions only
